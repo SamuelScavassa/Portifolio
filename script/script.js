@@ -11,3 +11,9 @@ sr.reveal('footer',{
     duration:1500
     
 })
+
+sr.reveal('.job',{
+    delay:1000,
+    duration:2000,
+    rotate: {x:80, y:0, z:0}
+})
