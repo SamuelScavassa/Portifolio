@@ -17,3 +17,18 @@ sr.reveal('.job',{
     duration:2000,
     rotate: {x:80, y:0, z:0}
 })
+
+sr.reveal('.sobre_mim',{
+    delay:1000,
+    duration:1500    
+})
+
+sr.reveal('.disciplinas',{
+    delay:2000,
+    duration:1500    
+})
+
+sr.reveal('.cursos',{
+    delay:2000,
+    duration:1500    
+})
