@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 /* Tags */
 
 body {
@@ -84,6 +85,19 @@ a:hover {
     background-color: black;
     color: white;
     padding: 3px;
+}
+
+.so {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+.sobre_mim, .disciplinas, .cursos {
+    visibility: hidden;
+    padding: 25px;
 }
 
 
