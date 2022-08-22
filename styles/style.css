@@ -69,8 +69,12 @@ a:hover {
     justify-content: space-around;
 }
 
+.jobs {
+    
+}
+
 .job img {
-    width: 70%;
+    width: auto;
 }
 
 .job a {
