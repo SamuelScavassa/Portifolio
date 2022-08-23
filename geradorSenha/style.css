@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("/img/fundo.jpg");
+    background-image: url("fundo.jpg");
     background-attachment: fixed;
     background-color: black;
     color: white;

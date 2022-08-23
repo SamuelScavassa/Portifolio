@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-    background-image: url("/img/fundo.jpg");
+    background-image: url("fundo.jpg");
     background-attachment: fixed;
     background-color: black;
     display: flex;
