@@ -4,27 +4,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-html, body {
-    width: 100%;
-    height: 100%;
-}
+
+
 
 body {
-    background-image: url("fundo.jpg");
-    background-attachment: fixed;
-    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url("fundo.jpg");
+    background-attachment: fixed;
+    background-color: black; 
     padding: 10px;
     font-family: Poppins;
 
+}
+
+header {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 50px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 h1 {
@@ -111,15 +114,7 @@ hr {
 }
 
 /**/
-header {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 25px 50px;
-    border: 1px solid white;
-    border-radius: 5px;
-}
+
 
 .img_logo {
     width: 80px;

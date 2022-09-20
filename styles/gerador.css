@@ -3,6 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
 
 body {
     display: flex;
@@ -17,17 +24,27 @@ body {
 
 header {
     width: 80%;
-   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 25px 50px;
     border: 1px solid white;
     border-radius: 5px;
-    
 }
 
-main {
+.img_logo {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.main {
     font-family: sans-serif;
     width: 100%;
     margin: 0 auto;
@@ -136,19 +153,6 @@ transform: scale(1.05);
 
 
 /**/
-
-.img_logo {
-    width: 80px;
-    border-radius: 50%;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-    font-family: 'Bebas Neue', cursive;
-
-}
-
 #link_menu {
     padding: 10px;
     text-decoration: none;
