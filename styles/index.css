@@ -97,14 +97,22 @@ a:hover {
 
 .curriculo {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    align-items: column;
+    flex-direction: row;
     width: auto;
+    justify-content: center;
 
 }
 
 .drive {
     width: 50px;
+}
+
+.pad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 
