@@ -95,10 +95,27 @@ a:hover {
 
 }
 
-.sobre_mim, .disciplinas, .cursos {
+.curriculo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+
+}
+
+.drive {
+    width: 50px;
+}
+
+
+.sobre_mim, .disciplinas, .cursos, .curriculo {
     visibility: hidden;
     padding: 25px;
 }
+
+
+
+
 
 
 /*Id's */

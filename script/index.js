@@ -32,3 +32,8 @@ sr.reveal('.cursos',{
     delay:2000,
     duration:1500    
 })
+
+sr.reveal('.curriculo',{
+    delay:2000,
+    duration:1500    
+})
